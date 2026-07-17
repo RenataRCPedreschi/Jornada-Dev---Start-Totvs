@@ -25,10 +25,8 @@ FUNCTION Main()
    nNota3 := Val(cNota3)
    nNota4 := Val(cNota4)
 
-   nMedia := ((nNota1 * 1) + ;
-               (nNota2 * 2) + ;
-               (nNota3 * 3) + ;
-               (nNota4 * 4)) / 10
+
+   nMedia := ((nNota1 * 1) + (nNota2 * 2) + (nNota3 * 3) + (nNota4 * 4)) / 10
 
    QOut("Média ponderada: " + Str(nMedia,10,2))
 

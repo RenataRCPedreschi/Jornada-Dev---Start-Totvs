@@ -18,5 +18,4 @@ FUNCTION Main()
    QOut("Data de admissao: " + DToC(dAdmissao))
    QOut("Codigo do Departamento: " + cCodigoDepartamento)
    
-
 RETURN NIL
